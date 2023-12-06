@@ -8,12 +8,6 @@ const FeedbackOptions = ({ options }) => {
           {option.name}
         </button>
       ))}
-      {/*                ALTERNATIVE
-      {options.map((option, index) => (
-        <button key={index} onClick={option.leaveFeedback}>
-          {option.name}
-        </button>
-      ))} */}
     </div>
   );
 };
